@@ -3,11 +3,13 @@ Perl-Lattice-size
 
 Perl scripts for determining optimal lattice size on LAMMPS
 
-
+------------------------------------------------------------------------------------------------------------------------
 1_datafile.pl
+------------------
 This perl script generates a number of LAMMPS data files by reading two input files, a VASP CONTCAR/POSCAR file and a LAMMPS format data file. 
 
 This script is written by Nancy and modified by me.
+
 The first prompt of the script asks for the name of the VASP CONTCAR/POSCAR file, thereby extracting the fractional coordinates from it.
 
 The second and third prompt ask for the number of data files to be generated and the increment (in Angstrom) by which lattice size varies, respectively. The number of data files needs to be even because it is symmetric about the origin (that is your lattice size in the VASP coordinate file). 
